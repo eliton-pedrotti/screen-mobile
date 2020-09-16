@@ -7,7 +7,29 @@ import styles from './styles.js'
 
 
 export default function App(){
- 
+
+  // const [name, setName] = useState('')
+  // const [age, setAge] = useState('')
+  // const [genre, setGenre] = useState('')
+  // const [email, setEmail] = useState('')
+  // const [number, setNumber] = useState('')
+  // const [addres, setAddres] = useState('')
+  // const [pass, setPass] = useState('')
+
+  // function save(){
+  //   alert(
+  //     `
+  //     Nome: ${name}
+  //     Idade: ${age}
+  //     Gênero: ${genre}
+  //     Email: ${email}
+  //     Número: ${number}
+  //     Endereço: ${addres}
+  //     Senha: ${pass}
+  //   `)
+  // }
+
+
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.selectButton}>
@@ -100,7 +122,7 @@ export default function App(){
 
     </View>
      <TouchableOpacity style={styles.button}>
-       <Text style={styles.buttonText}>Salvar</Text>
+       <Text style={styles.buttonText}  >Salvar</Text>
      </TouchableOpacity>
     </View>
   );
